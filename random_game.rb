@@ -17,6 +17,7 @@ while !out_of_question
 		if choosen_word.include? guess
 			puts "Correct!"
 			point += 1
+			puts "Your point #{point}!"
 		else
 			puts "Incorrect!"
 		end
